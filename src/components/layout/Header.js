@@ -8,8 +8,8 @@ class Header extends Component {
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">
             <img
-              src="../../favicon.ico"
-              width="30"
+              src="https://ik.imagekit.io/nasmoco/logo-nasmoco_ylAwpb2HE.png"
+              width="50"
               height="30"
               class="d-inline-block align-top"
               alt=""
@@ -72,7 +72,7 @@ class Header extends Component {
                           </div>
                           <div
                             id="collapseOne"
-                            class="collapse show"
+                            class="collapse"
                             aria-labelledby="headingOne"
                             data-parent="#accordionExample"
                           >
@@ -132,32 +132,43 @@ class Header extends Component {
                                 </div>
                                 <div class="col">
                                   <img
-                                    src="https://ik.imagekit.io/nasmoco/newventurer_c_U3a5a6Y.png"
+                                    src="https://ik.imagekit.io/nasmoco/20190409144854sienta_Mc-xDE3Up.png"
                                     width="250"
                                     height="150"
                                     class="d-inline-block align-top"
                                     alt=""
                                   />
-                                  <h6 class="text-left">New Venturer</h6>
+                                  <h6 class="text-left">New Sienta</h6>
                                 </div>
                                 <div class="col">
                                   <img
-                                    src="/images/avanza.png"
+                                    src="https://ik.imagekit.io/nasmoco/20190409144108calya_UqwY6wl7s.png"
                                     width="250"
                                     height="150"
                                     class="d-inline-block align-top"
                                     alt=""
                                   />
-                                  <h6 class="text-left">Cobaakk nih</h6>
+                                  <h6 class="text-left">All New Calya</h6>
                                 </div>
                                 <div class="col">
                                   <img
-                                    src="https://ik.imagekit.io/nasmoco/allnewavanza_q8uFzFblP.png"
+                                    src="https://ik.imagekit.io/nasmoco/toyota-semarang-vellfire.png"
                                     width="250"
                                     height="150"
                                     class="d-inline-block align-top"
                                     alt=""
                                   />
+                                  <h6 class="text-left">New Vellfire</h6>
+                                </div>
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/2019voxy.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">All New Voxy</h6>
                                 </div>
                               </div>
                             </div>
@@ -167,14 +178,14 @@ class Header extends Component {
                           <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                               <button
-                                class="btn btn-link collapsed"
+                                class="btn collapsed"
                                 type="button"
                                 data-toggle="collapse"
                                 data-target="#collapseTwo"
                                 aria-expanded="false"
                                 aria-controls="collapseTwo"
                               >
-                                Collapsible Group Item #2
+                                Product SUV
                               </button>
                             </h5>
                           </div>
