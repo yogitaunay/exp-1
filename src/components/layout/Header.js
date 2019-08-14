@@ -59,7 +59,7 @@ class Header extends Component {
                           <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                               <button
-                                class="btn"
+                                class="btn btn-light"
                                 type="button"
                                 data-toggle="collapse"
                                 data-target="#collapseOne"
@@ -178,7 +178,7 @@ class Header extends Component {
                           <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                               <button
-                                class="btn collapsed"
+                                class="btn collapsed btn-light"
                                 type="button"
                                 data-toggle="collapse"
                                 data-target="#collapseTwo"
@@ -191,24 +191,53 @@ class Header extends Component {
                           </div>
                           <div
                             id="collapseTwo"
-                            class="collapse"
+                            class="collapse show"
                             aria-labelledby="headingTwo"
                             data-parent="#accordionExample"
                           >
                             <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod
-                              high life accusamus terry richardson ad squid. 3
-                              wolf moon officia aute, non cupidatat skateboard
-                              dolor brunch. Food truck quinoa nesciunt laborum
-                              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                              put a bird on it squid single-origin coffee nulla
-                              assumenda shoreditch et. Nihil anim keffiyeh
-                              helvetica, craft beer labore wes anderson cred
-                              nesciunt sapiente ea proident. Ad vegan excepteur
-                              butcher vice lomo. Leggings occaecat craft beer
-                              farm-to-table, raw denim aesthetic synth nesciunt
-                              you probably haven't heard of them accusamus
-                              labore sustainable VHS.
+                              <div class="row">
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/fortuner-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">Fortuner</h6>
+                                </div>
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/rush-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">All New Rush</h6>
+                                </div>
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/all-new-chr-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">All New CH-R</h6>
+                                </div>
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/land-cruiser-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">Land Cruiser</h6>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -216,14 +245,14 @@ class Header extends Component {
                           <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
                               <button
-                                class="btn btn-link collapsed"
+                                class="btn collapsed btn-light"
                                 type="button"
                                 data-toggle="collapse"
                                 data-target="#collapseThree"
                                 aria-expanded="false"
                                 aria-controls="collapseThree"
                               >
-                                Collapsible Group Item #3
+                                Product Hatchback
                               </button>
                             </h5>
                           </div>
@@ -234,19 +263,60 @@ class Header extends Component {
                             data-parent="#accordionExample"
                           >
                             <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod
-                              high life accusamus terry richardson ad squid. 3
-                              wolf moon officia aute, non cupidatat skateboard
-                              dolor brunch. Food truck quinoa nesciunt laborum
-                              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                              put a bird on it squid single-origin coffee nulla
-                              assumenda shoreditch et. Nihil anim keffiyeh
-                              helvetica, craft beer labore wes anderson cred
-                              nesciunt sapiente ea proident. Ad vegan excepteur
-                              butcher vice lomo. Leggings occaecat craft beer
-                              farm-to-table, raw denim aesthetic synth nesciunt
-                              you probably haven't heard of them accusamus
-                              labore sustainable VHS.
+                              Anim pariatur cliche reprehenderit, enim
+                              eiusmod high life accusamus terry richardson
+                              ad squid. 3 wolf moon officia aute, non
+                              cupidatat skateboard dolor brunch. Food truck
+                              quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                              moon tempor, sunt aliqua put a bird on it
+                              squid single-origin coffee nulla assumenda
+                              shoreditch et. Nihil anim keffiyeh helvetica,
+                              craft beer labore wes anderson cred nesciunt
+                              sapiente ea proident. Ad vegan excepteur
+                              butcher vice lomo. Leggings occaecat craft
+                              beer farm-to-table, raw denim aesthetic synth
+                              nesciunt you probably haven't heard of them
+                              accusamus labore sustainable VHS.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                              <button
+                                class="btn btn-light"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#collapseFour"
+                                aria-expanded="true"
+                                aria-controls="collapseFour"
+                              >
+                                Product Sedan
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div
+                            id="collapseFour"
+                            class="collapse"
+                            aria-labelledby="headingFour"
+                            data-parent="#accordionExample"
+                          >
+                            <div class="card-body">
+                              Anim pariatur cliche reprehenderit, enim
+                              eiusmod high life accusamus terry richardson
+                              ad squid. 3 wolf moon officia aute, non
+                              cupidatat skateboard dolor brunch. Food truck
+                              quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                              moon tempor, sunt aliqua put a bird on it
+                              squid single-origin coffee nulla assumenda
+                              shoreditch et. Nihil anim keffiyeh helvetica,
+                              craft beer labore wes anderson cred nesciunt
+                              sapiente ea proident. Ad vegan excepteur
+                              butcher vice lomo. Leggings occaecat craft
+                              beer farm-to-table, raw denim aesthetic synth
+                              nesciunt you probably haven't heard of them
+                              accusamus labore sustainable VHS.
                             </div>
                           </div>
                         </div>
