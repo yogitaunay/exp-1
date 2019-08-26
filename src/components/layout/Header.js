@@ -244,7 +244,7 @@ class Header extends Component {
                         <div class="card">
                           <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
-                            <button
+                              <button
                                 type="button"
                                 class="btn btn-warning btn-block"
                                 data-toggle="collapse"
@@ -294,6 +294,10 @@ class Header extends Component {
                               <button
                                 type="button"
                                 class="btn btn-danger btn-block"
+                                data-toggle="collapse"
+                                data-target="#collapseFour"
+                                aria-expanded="false"
+                                aria-controls="collapseFour"
                               >
                                 <b>SEDAN</b>
                               </button>
@@ -307,20 +311,38 @@ class Header extends Component {
                             data-parent="#accordionExample"
                           >
                             <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim
-                              eiusmod high life accusamus terry richardson
-                              ad squid. 3 wolf moon officia aute, non
-                              cupidatat skateboard dolor brunch. Food truck
-                              quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                              moon tempor, sunt aliqua put a bird on it
-                              squid single-origin coffee nulla assumenda
-                              shoreditch et. Nihil anim keffiyeh helvetica,
-                              craft beer labore wes anderson cred nesciunt
-                              sapiente ea proident. Ad vegan excepteur
-                              butcher vice lomo. Leggings occaecat craft
-                              beer farm-to-table, raw denim aesthetic synth
-                              nesciunt you probably haven't heard of them
-                              accusamus labore sustainable VHS.
+                              <div class="row">
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/Camry/camry-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">New Camry</h6>
+                                </div>
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/Altis/altis-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">New Corolla Altis</h6>
+                                </div>
+                                <div class="col">
+                                  <img
+                                    src="https://ik.imagekit.io/nasmoco/Vios/vios-toyota-semarang.png"
+                                    width="250"
+                                    height="150"
+                                    class="d-inline-block align-top"
+                                    alt=""
+                                  />
+                                  <h6 class="text-left">New Vios</h6>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
