@@ -1,0 +1,16 @@
+.col-sm {
+    border: solid black 1px;
+}
+
+@media (max-width: 767.98px) {
+    .mr-2 {
+        margin-right: 0px !important;
+    }
+    .mt-0 {
+        margin-top: 7px !important;
+    }
+    .mx-5 {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
