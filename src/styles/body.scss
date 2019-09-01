@@ -1,5 +1,5 @@
 .col-sm {
-    border: solid black 1px;
+    border: solid rgb(121, 131, 125) 1px;
 }
 
 @media (max-width: 767.98px) {
@@ -12,5 +12,8 @@
     .mx-5 {
         margin-right: 0px !important;
         margin-left: 0px !important;
+    }
+    h2 {
+        margin-left: 20px;
     }
 }
