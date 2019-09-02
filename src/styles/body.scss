@@ -1,7 +1,10 @@
 .col-sm {
     border: solid rgb(121, 131, 125) 1px;
 }
-
+.title-h2 {
+    box-shadow: 5px 3px 10px rgb(196, 190, 190);
+    border-left: solid burlywood 5px;
+}
 @media (max-width: 767.98px) {
     .mr-2 {
         margin-right: 0px !important;
@@ -12,8 +15,5 @@
     .mx-5 {
         margin-right: 0px !important;
         margin-left: 0px !important;
-    }
-    h2 {
-        margin-left: 20px;
     }
 }
